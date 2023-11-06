@@ -1,0 +1,27 @@
+
+*Links*
+
+1. [[https://wiki.archlinux.org/index.php/Installation_Guide][Installation guide]]
+2. [[https://itsfoss.com/install-arch-linux/][How to Install Arch Linux -Step by Step Guide]]
+3. [[https://bbs.archlinux.org/viewtopic.php?id=250542][Index Newbie Corner; Solved Arch hangs on boot after installation]]
+
+
+*Youtube videos*
+1. [[https://www.youtube.com/watch?v=315qks3HoFk][STEP BY STEP ARCH LINUX INSTALL ON A THINKPAD T430]]
+2. [[https://www.youtube.com/watch?v=HpskN_jKyhc&t=2550s][Arch Linux Installation Guide (2019)]]
+3. [[https://www.youtube.com/watch?v=-zb8220uUiA][New - 2020;Installation Guide - Arch Linux (UEFI & systemd-boot)]]
+4. [[https://www.youtube.com/watch?v=4PBqpX0_UOc&t=1147s][Full Arch Linux Install (SAVAGE Edition!)]]
+
+
+
+*AFTER INSTALLATION AND LOGGING IN*
+
+_Getting wired-connection up for internet_
+
+
+1. First bring up your interface:
+   -ip link set dev enp7s0 up 
+2. Then when it is up run Dhcp to pull an IP from the server:
+   - dhcpcd enp7s0 
+That should get you connected.
+

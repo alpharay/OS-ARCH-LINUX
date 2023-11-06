@@ -1,0 +1,3 @@
+*Video Tutorials by Luke Smith*
+1. [[https://www.youtube.com/watch?v=nSHOb8YU9Gw][After a Minimal Linux Install: Graphical Envionment and Users]]
+2. [[https://www.youtube.com/watch?v=-dEuXTMzRKs][Using Pacman on Arch Linux: Everything you need to know]]
